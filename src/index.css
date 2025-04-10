@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(./normalize.css);
+
+@font-face {
+    font-family: 'NAMU Pro';
+    src: url('./fonts/NAMU-Pro.ttf');
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Mazzard Soft M Light';
+    src: url('./fonts/MazzardSoftM-Light.ttf');
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h2,
+h3,
+.title,
+.subTitle,
+.inputText {
+    font-family: 'NAMU Pro';
+}
+
+p,
+.small,
+.big,
+.profileMenu,
+.newsText {
+    font-family: 'Mazzard Soft M Light';
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.subTitle {
+    font-size: 20px;
+}
+
+.inputText {
+    font-size: 13px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.big {
+    font-size: 32px;
+}
+
+.profileMenu {
+    font-size: 14px;
+}
+
+.newsText {
+    font-size: 14px;
 }
