@@ -21,7 +21,8 @@ h2,
 h3,
 .title,
 .subTitle,
-.inputText {
+.inputText,
+.offerTitle {
     font-family: 'NAMU Pro';
 }
 
@@ -29,7 +30,12 @@ p,
 .small,
 .big,
 .profileMenu,
-.newsText {
+.newsText,
+.description,
+.categoryText,
+.navCategory,
+.newsTitle,
+.newsRating {
     font-family: 'Mazzard Soft M Light';
 }
 
@@ -41,34 +47,34 @@ h3 {
     font-size: 36px;
 }
 
-.title {
-    font-size: 32px;
-}
-
-.subTitle {
-    font-size: 20px;
-}
-
-.inputText {
-    font-size: 13px;
-}
-
-p {
-    font-size: 24px;
-}
-
+.subTitle,
 .small {
     font-size: 20px;
 }
 
-.big {
+.inputText,
+.newsRating {
+    font-size: 13px;
+}
+
+p,
+.description,
+.offerTitle {
+    font-size: 24px;
+}
+
+.big,
+.categoryText,
+.navCategory,
+.title {
     font-size: 32px;
 }
 
-.profileMenu {
+.profileMenu,
+.newsText {
     font-size: 14px;
 }
 
-.newsText {
-    font-size: 14px;
+.newsTitle {
+    font-size: 15px;
 }
